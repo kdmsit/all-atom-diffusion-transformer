@@ -1,5 +1,5 @@
 datamodule:
-  _target_: .data.joint_datamodule.JointDataModule
+  _target_: data.joint_datamodule.JointDataModule
 
   datasets:
 
