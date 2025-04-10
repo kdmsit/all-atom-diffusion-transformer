@@ -24,7 +24,7 @@ task_name: "train_autoencoder"
 # tags to help you identify your experiments
 # you can overwrite this in experiment configs
 # overwrite from command line with `python train.py tags="[first_tag, second_tag]"`
-tags: ["joint", "autoencoder", "train"]
+tags: ["mp20_only", "autoencoder", "train"]  #["joint", "autoencoder", "train"]
 
 # set False to skip model training
 train: True
